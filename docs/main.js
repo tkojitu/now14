@@ -7,6 +7,6 @@ window.addEventListener(
                 let iso = new Date().toISOString();
                 let str = iso.replace(/[T:-]/g, "");
                 str = str.replace(/\..*/, "");
-                navigator.clipboard.writeText(str + ".txt");
+                navigator.clipboard.writeText(str);
             });
     });
